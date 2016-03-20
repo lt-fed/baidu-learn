@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1-1-1</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="">导航链接1</a>
+            </li>
+            <li>
+                <a href="">导航链接2</a>
+            </li>
+            <li>
+                <a href="">导航链接三</a>
+            </li>
+            <li>
+                <a href="">导航链接四
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <header>
+
+        <h1>
+            文章一级标题
+        </h1>
+        <h2>
+            文章二级标题
+        </h2>
+
+        <p>
+            文章作者 文章发表时间
+        </p>
+    </header>
+
+    <p>
+        这是一个很长的段落
+        <br>
+        <img src="vim-keyboard.png" alt="一个插图">
+        这是一个很长的段落
+        <br>
+        <a href="">http://ife.baidu.com</a>
+        这是一个很长的段落
+    </p>
+</article>
+<article>
+    <header>
+
+        <h1>另一篇文章的一级标题</h1>
+        <h2>文章二级标题</h2>
+
+        <p>文章作者 文章发表时间
+        </p>
+    </header>
+
+    <p>
+        这是一个很长的段落
+        <br>
+        这是一个很长的段落
+        <a href="">这里有一个链接</a>
+        这是一个很长的段落
+        <img src="vim-keyboard.png" alt="">
+    </p>
+    <ul>
+        <li>列表项目一</li>
+        <li>列表项目二</li>
+        <li>列表项目三</li>
+    </ul>
+</article>
+<article>
+    <h1>图片</h1>
+    <p>
+        好看的图片
+        <br>
+        <img src="vim-keyboard.png" alt="好看的图片">
+    </p>
+    <p>
+        好看的图片
+        <br>
+        <img src="vim-keyboard.png" alt="好看的图片">
+    </p>
+    <p>
+        好看的图片
+        <br>
+        <img src="vim-keyboard.png" alt="好看的图片">
+    </p>
+</article>
+<article>
+    <header>
+        <h1>最后一片文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <p>文章作者 文章发表时间</p>
+    </header>
+    <ol>
+        <li>排名1</li>
+        <li>排名2</li>
+        <li>排名3
+        </li>
+    </ol>
+    下面是一个表格,给表格加了一个border='1'
+    <table border="1">
+        <tr>
+            <th>表头</th>
+            <th>表头</th>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <td>内容内容</td>
+            <td>内容内容</td>
+            <td>内容内容</td>
+        </tr>
+        <tr>
+            <td>内容内容</td>
+            <td>内容内容</td>
+            <td>内容内容</td>
+        </tr>
+        <tr>
+            <td>内容内容</td>
+            <td>内容内容</td>
+            <td>内容内容</td>
+        </tr>
+        <tr>
+            <td>内容内容</td>
+            <td>内容内容</td>
+            <td>内容内容
+            </td>
+        </tr>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+    </table>
+    <section>
+        <h1>
+            这里以后是一个侧栏,这是侧栏的标题
+        </h1>
+        <article>
+            <h2>
+                侧栏注册窗口标题
+            </h2>
+            <form action="">
+                <p>
+                    <label for="email">
+                        请输入邮箱地址
+                    </label>
+                    <input type="email" id="email" placeholder="这是一个文本输入框">
+                </p>
+                <p>
+                    邮箱地址请按要求格式输入
+                </p>
+                <p>
+                    <label for="password">请输入密码</label>
+                    <input type="password" id="password" placeholder="请输入密码">
+                    <label for="repeatPassword">请重复输入密码</label>
+                    <input type="password" id="repeatPassword" placeholder="请重复">
+                </p>
+                <p>
+                    密码为6-16位英文数字
+                </p>
+                <p>
+                    性别:
+                    <label for="man">男</label>
+                    <input type="radio" id="man" name="gander" value="男" checked="checked" >
+                    <label for="woman">女</label>
+                    <input type="radio" id="woman" name="gender" value="女">
+
+                    <label for="city">城市</label>
+                    <select name="city" id="city">
+                        <option value="pk">北京</option>
+                        <option value="">上海</option>
+                        <option value="">南京</option>
+                        <option value="">泸州</option>
+                        <option value="">成都</option>
+                        <option value="">重庆</option>
+                        <option value="">无锡</option>
+                        <option value="">zzz</option>
+                    </select>
+                    爱好:
+                    <label for="sport">运动</label>
+                    <input type="checkbox" name="sport" id="sport" value="sport">
+                    <label for="art">艺术</label>
+                    <input type="checkbox" name="art" id="art" value="art">
+                    <label for="science"> 科学</label>
+                    <input type="checkbox" name="science" id="science" value="science">
+                    <label for="description">个人描述</label>
+                    <textarea name="description" id="description" cols="10" rows="3">
+                        这是一个多行输入框
+                    </textarea>
+                </p>
+            </form>
+        </article>
+    </section>
+</article>
+
+<footer>
+    版权所有©
+</footer>
+</body>
+</html>
